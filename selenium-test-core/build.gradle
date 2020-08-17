@@ -10,7 +10,6 @@ repositories {
 }
 
 dependencies {
-    compile project(path: ':selenium-test-core')
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
     compile group: 'org.assertj', name: 'assertj-core', version: '3.6.1'
     testCompile 'org.seleniumhq.selenium:selenium-chrome-driver:2.53.1'

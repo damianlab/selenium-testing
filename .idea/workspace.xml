@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1d9af87-65b1-413d-a8f2-323505c74cb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-forgot-password/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-forgot-password/src/main/java/org/example/AbstractPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-forgot-password/src/main/java/org/example/EmailSentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-forgot-password/src/main/java/org/example/ForgotPasswordPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-forgot-password/src/test/java/org/example/ForgotPasswordPageTest.java" afterDir="false" />
+    <list default="true" id="b1d9af87-65b1-413d-a8f2-323505c74cb7" name="Default Changelist" comment="Created SeleniumBaseTest">
+      <change afterPath="$PROJECT_DIR$/selenium-test-core/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-checkboxes/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-checkboxes/src/main/java/org/example/CheckboxesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-checkboxes/src/test/java/org/example/CheckboxesPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-checkboxes/src/test/java/org/example/SeleniumBaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the-internet-herokuapp-com-forgot-password/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-forgot-password/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the-internet-herokuapp-com-forgot-password/src/main/java/org/example/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-test-core/src/main/java/org/example/AbstractPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the-internet-herokuapp-com-forgot-password/src/test/java/org/example/ForgotPasswordPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-forgot-password/src/test/java/org/example/ForgotPasswordPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +70,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/the-internet-herokuapp-com-checkboxes" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -76,7 +79,11 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\selenium-testing\the-internet-herokuapp-com-checkboxes" />
       <recent name="D:\selenium-testing" />
     </key>
   </component>
@@ -197,7 +204,27 @@
       <option name="presentableId" value="Default" />
       <updated>1597651827008</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created automation tests for http://the-internet.herokuapp.com/forgot_password">
+      <created>1597655266179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597655266179</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created SeleniumBaseTest">
+      <created>1597657132640</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597657132640</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created automation tests for http://the-internet.herokuapp.com/forgot_password" />
+    <MESSAGE value="Created SeleniumBaseTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created SeleniumBaseTest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1597652979052">
@@ -208,6 +235,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="346" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1597652858882" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597657866151">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597657866151" />
+    <state x="279" y="54" width="1021" height="690" key="CommitChangelistDialog2" timestamp="1597657072287">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="54" width="1021" height="690" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597657072287" />
     <state x="630" y="310" width="372" height="227" key="Github.ShareDialog" timestamp="1597652213989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -216,25 +251,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597652223000" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597655022892">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597657058338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597655022892" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597655022891">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597657058338" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597657058338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597655022891" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597655022891">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597657058338" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597657058337">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597655022891" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597655022892">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597657058337" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597657058338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597655022892" />
-    <state x="209" y="23" key="new project wizard" timestamp="1597652297443">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597657058338" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597657135168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="23" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1597652297443" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597657135168" />
+    <state x="305" y="20" key="new project wizard" timestamp="1597657411050">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="305" y="20" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1597657411050" />
   </component>
 </project>
