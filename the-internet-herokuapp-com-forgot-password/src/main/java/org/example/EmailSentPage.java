@@ -24,5 +24,4 @@ public class EmailSentPage extends AbstractPage {
         assertThat(content.getText()).isEqualTo("Your e-mail's been sent!");
         return this;
     }
-
 }

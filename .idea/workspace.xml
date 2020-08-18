@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1d9af87-65b1-413d-a8f2-323505c74cb7" name="Default Changelist" comment="Created selenium-test-core">
-      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-checkboxes/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-checkboxes/src/main/java/org/example/CheckboxesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-checkboxes/src/test/java/org/example/CheckboxesPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-checkboxes/src/test/java/org/example/SeleniumBaseTest.java" afterDir="false" />
+    <list default="true" id="b1d9af87-65b1-413d-a8f2-323505c74cb7" name="Default Changelist" comment="Created selenium test for http://the-internet.herokuapp.com/checkboxes">
+      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-add-remove-elements/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-add-remove-elements/src/main/java/org/example/AddRemoveElementsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-add-remove-elements/src/test/java/org/example/AddRemoveElementsPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-add-remove-elements/src/test/java/org/example/SeleniumBaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the-internet-herokuapp-com-forgot-password/src/main/java/org/example/EmailSentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-forgot-password/src/main/java/org/example/EmailSentPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/the-internet-herokuapp-com-checkboxes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/the-internet-herokuapp-com-add-remove-elements" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -78,23 +80,24 @@
       <recent name="org.example" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\selenium-testing\the-internet-herokuapp-com-add-remove-elements" />
       <recent name="D:\selenium-testing\the-internet-herokuapp-com-checkboxes" />
       <recent name="D:\selenium-testing" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CheckboxesPageTest.givenCheckbox1IsClickedAndCheckbox2IsUnclickedThenCheckbox1IsSelectedAndCheckbox2IsNotSelected">
-    <configuration name="CheckboxesPageTest.givenCheckbox1IsClickedAndCheckbox2IsUnclickedThenCheckbox1IsSelectedAndCheckbox2IsNotSelected" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AddRemoveElementsPageTest.button1Button2Button3AreAddedAndButton3Button2AreDeleted">
+    <configuration name="AddRemoveElementsPageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.CheckboxesPageTest.givenCheckbox1IsClickedAndCheckbox2IsUnclickedThenCheckbox1IsSelectedAndCheckbox2IsNotSelected&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.AddRemoveElementsPageTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":the-internet-herokuapp-com-checkboxes:test" />
+            <option value=":the-internet-herokuapp-com-add-remove-elements:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -102,18 +105,18 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CheckboxesPageTest.givenCheckbox1IsClickedThenCheckbox1And2IsSelected" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AddRemoveElementsPageTest.button1Button2Button3AreAddedAndButton3Button2AreDeleted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.CheckboxesPageTest.givenCheckbox1IsClickedThenCheckbox1And2IsSelected&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.AddRemoveElementsPageTest.button1Button2Button3AreAddedAndButton3Button2AreDeleted&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":the-internet-herokuapp-com-checkboxes:test" />
+            <option value=":the-internet-herokuapp-com-add-remove-elements:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -121,18 +124,18 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CheckboxesPageTest.givenPageIsLoadedThenCheckbox2IsSelected" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AddRemoveElementsPageTest.button1ElementIsAddedAndIsEnabled" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.CheckboxesPageTest.givenPageIsLoadedThenCheckbox2IsSelected&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.AddRemoveElementsPageTest.button1ElementIsAddedAndIsEnabled&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":the-internet-herokuapp-com-checkboxes:test" />
+            <option value=":the-internet-herokuapp-com-add-remove-elements:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -140,18 +143,18 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ForgotPasswordPageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AddRemoveElementsPageTest.button1button2button3AreAddedAndAreEnabled" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.ForgotPasswordPageTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.AddRemoveElementsPageTest.button1button2button3AreAddedAndAreEnabled&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":the-internet-herokuapp-com-forgot-password:test" />
+            <option value=":the-internet-herokuapp-com-add-remove-elements:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -159,18 +162,18 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ForgotPasswordPageTest.test2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AddRemoveElementsPageTest.givenAddRemoveElementPageIsShown" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.ForgotPasswordPageTest.test2&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.AddRemoveElementsPageTest.givenAddRemoveElementPageIsShown&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":the-internet-herokuapp-com-forgot-password:test" />
+            <option value=":the-internet-herokuapp-com-add-remove-elements:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -180,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CheckboxesPageTest.givenCheckbox1IsClickedAndCheckbox2IsUnclickedThenCheckbox1IsSelectedAndCheckbox2IsNotSelected" />
-        <item itemvalue="Gradle.CheckboxesPageTest.givenCheckbox1IsClickedThenCheckbox1And2IsSelected" />
-        <item itemvalue="Gradle.CheckboxesPageTest.givenPageIsLoadedThenCheckbox2IsSelected" />
-        <item itemvalue="Gradle.ForgotPasswordPageTest" />
-        <item itemvalue="Gradle.ForgotPasswordPageTest.test2" />
+        <item itemvalue="Gradle.AddRemoveElementsPageTest.button1Button2Button3AreAddedAndButton3Button2AreDeleted" />
+        <item itemvalue="Gradle.AddRemoveElementsPageTest" />
+        <item itemvalue="Gradle.AddRemoveElementsPageTest.button1ElementIsAddedAndIsEnabled" />
+        <item itemvalue="Gradle.AddRemoveElementsPageTest.givenAddRemoveElementPageIsShown" />
+        <item itemvalue="Gradle.AddRemoveElementsPageTest.button1button2button3AreAddedAndAreEnabled" />
       </list>
     </recent_temporary>
   </component>
@@ -220,20 +223,28 @@
       <option name="project" value="LOCAL" />
       <updated>1597657952781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created selenium test for http://the-internet.herokuapp.com/checkboxes">
+      <created>1597673520537</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597673520537</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created automation tests for http://the-internet.herokuapp.com/forgot_password" />
     <MESSAGE value="Created SeleniumBaseTest" />
     <MESSAGE value="Created selenium-test-core" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created selenium-test-core" />
+    <MESSAGE value="Created selenium test for http://the-internet.herokuapp.com/checkboxes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created selenium test for http://the-internet.herokuapp.com/checkboxes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1597652979052">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1597735857276">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597652979052" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597735857276" />
     <state x="346" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597652858882">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -254,29 +265,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597652223000" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597658384464">
+    <state width="1493" height="287" key="GridCell.Tab.0.bottom" timestamp="1597736768884">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597658384464" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597658384463">
+    <state width="1493" height="287" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597736768884" />
+    <state width="1493" height="287" key="GridCell.Tab.0.center" timestamp="1597736768884">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597658384463" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597658384463">
+    <state width="1493" height="287" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597736768884" />
+    <state width="1493" height="287" key="GridCell.Tab.0.left" timestamp="1597736768883">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597658384463" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597658384463">
+    <state width="1493" height="287" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597736768883" />
+    <state width="1493" height="287" key="GridCell.Tab.0.right" timestamp="1597736768884">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597658384463" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597657965710">
+    <state width="1493" height="287" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597736768884" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597673753807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597657965710" />
-    <state x="305" y="20" key="new project wizard" timestamp="1597657411050">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597673753807" />
+    <state x="305" y="20" key="new project wizard" timestamp="1597685201261">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="305" y="20" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1597657411050" />
+    <state x="305" y="20" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1597685201261" />
   </component>
 </project>

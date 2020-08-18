@@ -2,4 +2,5 @@ rootProject.name = 'selenium-testing'
 include 'the-internet-herokuapp-com-forgot-password'
 include 'the-internet-herokuapp-com-checkboxes'
 include 'selenium-test-core'
+include 'the-internet-herokuapp-com-add-remove-elements'
 
