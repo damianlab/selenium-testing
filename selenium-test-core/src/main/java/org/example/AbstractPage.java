@@ -11,4 +11,13 @@ public abstract class AbstractPage {
         this.webDriver = webDriver;
         PageFactory.initElements(webDriver, this);
     }
+
+    public AbstractPage wait(int seconds) {
+        try {
+            Thread.sleep(seconds);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return this;
+    }
 }

@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1d9af87-65b1-413d-a8f2-323505c74cb7" name="Default Changelist" comment="Created selenium test for http://the-internet.herokuapp.com/checkboxes">
-      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-add-remove-elements/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-add-remove-elements/src/main/java/org/example/AddRemoveElementsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-add-remove-elements/src/test/java/org/example/AddRemoveElementsPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-add-remove-elements/src/test/java/org/example/SeleniumBaseTest.java" afterDir="false" />
+    <list default="true" id="b1d9af87-65b1-413d-a8f2-323505c74cb7" name="Default Changelist" comment="Created selenium test for http://the-internet.herokuapp.com/add_remove_elements/">
+      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-dynamic-controls/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-dynamic-controls/src/main/java/org/example/DynamicControlsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-dynamic-controls/src/test/java/org/example/DynamicControlsPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-dynamic-controls/src/test/java/org/example/SeleniumBaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-test-core/src/main/java/org/example/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-test-core/src/main/java/org/example/AbstractPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the-internet-herokuapp-com-forgot-password/src/main/java/org/example/EmailSentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-forgot-password/src/main/java/org/example/EmailSentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the-internet-herokuapp-com-add-remove-elements/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/the-internet-herokuapp-com-add-remove-elements/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,37 +86,38 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/the-internet-herokuapp-com-add-remove-elements" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/the-internet-herokuapp-com-dynamic-controls" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\selenium-testing\the-internet-herokuapp-com-forgot-password" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.example" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\selenium-testing\the-internet-herokuapp-com-dynamic-controls" />
       <recent name="D:\selenium-testing\the-internet-herokuapp-com-add-remove-elements" />
       <recent name="D:\selenium-testing\the-internet-herokuapp-com-checkboxes" />
       <recent name="D:\selenium-testing" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\selenium-testing\the-internet-herokuapp-com-forgot-password" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.AddRemoveElementsPageTest.button1Button2Button3AreAddedAndButton3Button2AreDeleted">
-    <configuration name="AddRemoveElementsPageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.DynamicControlsPageTest.checkIfInputFieldIsEnableAfterClickingEnableButton">
+    <configuration name="DynamicControlsPageTest.checkIfInputFieldIsDisable" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.AddRemoveElementsPageTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.DynamicControlsPageTest.checkIfInputFieldIsDisable&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":the-internet-herokuapp-com-add-remove-elements:test" />
+            <option value=":the-internet-herokuapp-com-dynamic-controls:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -105,18 +125,18 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AddRemoveElementsPageTest.button1Button2Button3AreAddedAndButton3Button2AreDeleted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DynamicControlsPageTest.checkIfInputFieldIsEnableAfterClickingEnableButton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.AddRemoveElementsPageTest.button1Button2Button3AreAddedAndButton3Button2AreDeleted&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.DynamicControlsPageTest.checkIfInputFieldIsEnableAfterClickingEnableButton&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":the-internet-herokuapp-com-add-remove-elements:test" />
+            <option value=":the-internet-herokuapp-com-dynamic-controls:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -124,18 +144,18 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AddRemoveElementsPageTest.button1ElementIsAddedAndIsEnabled" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DynamicControlsPageTest.checkboxExistsOnTheGivenPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.AddRemoveElementsPageTest.button1ElementIsAddedAndIsEnabled&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.DynamicControlsPageTest.checkboxExistsOnTheGivenPage&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":the-internet-herokuapp-com-add-remove-elements:test" />
+            <option value=":the-internet-herokuapp-com-dynamic-controls:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -143,18 +163,18 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AddRemoveElementsPageTest.button1button2button3AreAddedAndAreEnabled" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DynamicControlsPageTest.checkboxIsDeletedByClickingAddOrRemoveButton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.AddRemoveElementsPageTest.button1button2button3AreAddedAndAreEnabled&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.DynamicControlsPageTest.checkboxIsDeletedByClickingAddOrRemoveButton&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":the-internet-herokuapp-com-add-remove-elements:test" />
+            <option value=":the-internet-herokuapp-com-dynamic-controls:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -162,18 +182,18 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AddRemoveElementsPageTest.givenAddRemoveElementPageIsShown" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DynamicControlsPageTest.checkboxWasDeletedAndAddedByClickingAddOrRemoveButton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.AddRemoveElementsPageTest.givenAddRemoveElementPageIsShown&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.DynamicControlsPageTest.checkboxWasDeletedAndAddedByClickingAddOrRemoveButton&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":the-internet-herokuapp-com-add-remove-elements:test" />
+            <option value=":the-internet-herokuapp-com-dynamic-controls:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -183,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AddRemoveElementsPageTest.button1Button2Button3AreAddedAndButton3Button2AreDeleted" />
-        <item itemvalue="Gradle.AddRemoveElementsPageTest" />
-        <item itemvalue="Gradle.AddRemoveElementsPageTest.button1ElementIsAddedAndIsEnabled" />
-        <item itemvalue="Gradle.AddRemoveElementsPageTest.givenAddRemoveElementPageIsShown" />
-        <item itemvalue="Gradle.AddRemoveElementsPageTest.button1button2button3AreAddedAndAreEnabled" />
+        <item itemvalue="Gradle.DynamicControlsPageTest.checkIfInputFieldIsEnableAfterClickingEnableButton" />
+        <item itemvalue="Gradle.DynamicControlsPageTest.checkIfInputFieldIsDisable" />
+        <item itemvalue="Gradle.DynamicControlsPageTest.checkboxWasDeletedAndAddedByClickingAddOrRemoveButton" />
+        <item itemvalue="Gradle.DynamicControlsPageTest.checkboxIsDeletedByClickingAddOrRemoveButton" />
+        <item itemvalue="Gradle.DynamicControlsPageTest.checkboxExistsOnTheGivenPage" />
       </list>
     </recent_temporary>
   </component>
@@ -230,21 +250,40 @@
       <option name="project" value="LOCAL" />
       <updated>1597673520537</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created selenium test for http://the-internet.herokuapp.com/add_remove_elements/">
+      <created>1597737154375</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597737154375</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created automation tests for http://the-internet.herokuapp.com/forgot_password" />
     <MESSAGE value="Created SeleniumBaseTest" />
     <MESSAGE value="Created selenium-test-core" />
     <MESSAGE value="Created selenium test for http://the-internet.herokuapp.com/checkboxes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created selenium test for http://the-internet.herokuapp.com/checkboxes" />
+    <MESSAGE value="Created selenium test for http://the-internet.herokuapp.com/add_remove_elements/" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created selenium test for http://the-internet.herokuapp.com/add_remove_elements/" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1597735857276">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1597739628279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597735857276" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597739628279" />
     <state x="346" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597652858882">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -265,29 +304,49 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597652223000" />
-    <state width="1493" height="287" key="GridCell.Tab.0.bottom" timestamp="1597736768884">
+    <state width="1493" height="287" key="GridCell.Tab.0.bottom" timestamp="1597741016634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="287" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597736768884" />
-    <state width="1493" height="287" key="GridCell.Tab.0.center" timestamp="1597736768884">
+    <state width="1493" height="287" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597741016634" />
+    <state width="1493" height="287" key="GridCell.Tab.0.center" timestamp="1597741016634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="287" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597736768884" />
-    <state width="1493" height="287" key="GridCell.Tab.0.left" timestamp="1597736768883">
+    <state width="1493" height="287" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597741016634" />
+    <state width="1493" height="287" key="GridCell.Tab.0.left" timestamp="1597741016634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="287" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597736768883" />
-    <state width="1493" height="287" key="GridCell.Tab.0.right" timestamp="1597736768884">
+    <state width="1493" height="287" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597741016634" />
+    <state width="1493" height="287" key="GridCell.Tab.0.right" timestamp="1597741016634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="287" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597736768884" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597673753807">
+    <state width="1493" height="287" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597741016634" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1597739405658">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597673753807" />
-    <state x="305" y="20" key="new project wizard" timestamp="1597685201261">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597739405658" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1597739405657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="305" y="20" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1597685201261" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597739405657" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1597739405657">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597739405657" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1597739405657">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597739405657" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597737166450">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597737166450" />
+    <state x="305" y="20" key="new project wizard" timestamp="1597737314938">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="305" y="20" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1597737314938" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1597739588868">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1597739588868" />
   </component>
 </project>
