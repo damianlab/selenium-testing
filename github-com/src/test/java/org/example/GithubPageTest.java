@@ -45,4 +45,39 @@ private GithubPage githubPage;
                 .clickFirstRepositoryLink()
                 .assertNumberOfLanguages(7);
     }
+
+    @Test
+    public void assertNumberOfListedFiles () {
+        githubPage.inputTextForSearch("selenium")
+                .submitTextForSearch()
+                .clickFirstRepositoryLink()
+                .assertNumberOfFiles(42);
+    }
+
+    @Test
+    public void assertNumberOfBranches () {
+        githubPage.inputTextForSearch("selenium")
+                .submitTextForSearch()
+                .clickFirstRepositoryLink()
+                .assertNumberOfBranches("15");
+
+    }
+
+    @Test
+    public void assertNumberOfTags () {
+        githubPage.inputTextForSearch("selenium")
+                .submitTextForSearch()
+                .clickFirstRepositoryLink()
+                .assertNumberOfTags("125");
+
+    }
+
+    @Test
+    public void assertLicenceText () {
+        githubPage.inputTextForSearch("selenium")
+                .submitTextForSearch()
+                .clickFirstRepositoryLink()
+                .assertLicenceText("Apache-2.0 License");
+    }
+
 }

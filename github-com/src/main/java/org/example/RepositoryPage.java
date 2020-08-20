@@ -20,6 +20,18 @@ public class RepositoryPage extends AbstractPage{
     @FindBy(xpath = "//div[@class='BorderGrid-cell' and ./h2/text()='Languages']/ul/li")
     private List<WebElement> languages;
 
+    @FindBy(xpath = "//div[@role='row']")
+    private List<WebElement> files;
+
+    @FindBy(xpath = "//a[@class='link-gray-dark no-underline']/strong")
+    private WebElement branches;
+
+    @FindBy(xpath = "//a[@class='ml-3 link-gray-dark no-underline']/strong")
+    private WebElement tags;
+
+    @FindBy(xpath = "//div[@class='mt-3'][3]")
+    private WebElement linkLicence;
+
     public RepositoryPage(WebDriver webDriver) {
         super(webDriver);
     }
@@ -39,4 +51,27 @@ public class RepositoryPage extends AbstractPage{
         return this;
     }
 
+    public RepositoryPage assertNumberOfFiles (int expectedFiles) {
+        wait.until(ExpectedConditions.visibilityOfAllElements(files));
+        Assertions.assertThat(files.size()).isEqualTo(expectedFiles);
+        return this;
+    }
+
+    public RepositoryPage assertNumberOfBranches (String expectedBranches) {
+        wait.until(ExpectedConditions.visibilityOf(branches));
+        Assertions.assertThat(branches.getText()).isEqualTo(expectedBranches);
+        return this;
+    }
+
+    public RepositoryPage assertNumberOfTags (String expectedTags) {
+        wait.until(ExpectedConditions.visibilityOf(tags));
+        Assertions.assertThat(tags.getText()).isEqualTo(expectedTags);
+        return this;
+    }
+
+    public RepositoryPage assertLicenceText (String expectedLicenceText) {
+        wait.until(ExpectedConditions.visibilityOf(linkLicence));
+        Assertions.assertThat(linkLicence.getText()).isEqualTo(expectedLicenceText);
+        return this;
+    }
 }
