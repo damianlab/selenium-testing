@@ -5,4 +5,5 @@ include 'selenium-test-core'
 include 'the-internet-herokuapp-com-add-remove-elements'
 include 'the-internet-herokuapp-com-dynamic-controls'
 include 'translate-google-com-translate-en-pl'
+include 'google-com-gmail-about'
 

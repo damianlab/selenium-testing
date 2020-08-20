@@ -19,9 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1d9af87-65b1-413d-a8f2-323505c74cb7" name="Default Changelist" comment="Created selenium test for http://the-internet.herokuapp.com/add_remove_elements/">
+    <list default="true" id="b1d9af87-65b1-413d-a8f2-323505c74cb7" name="Default Changelist" comment="Created selenium test for https://translate.google.com/?hl=pl#view=home&amp;op=translate&amp;sl=en&amp;tl=pl">
+      <change afterPath="$PROJECT_DIR$/google-com-gmail-about/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-com-gmail-about/src/main/java/org/example/GmailAboutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-com-gmail-about/src/test/java/org/example/GmailAboutPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google-com-gmail-about/src/test/java/org/example/SeleniumBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/translate-google-com-translate-en-pl/src/main/java/org/example/TranslateEnToPlPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/translate-google-com-translate-en-pl/src/test/java/org/example/SeleniumBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/translate-google-com-translate-en-pl/src/test/java/org/example/TranslateEnToPlPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-test-core/src/main/java/org/example/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-test-core/src/main/java/org/example/AbstractPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translate-google-com-translate-en-pl/src/main/java/org/example/TranslateEnToPL.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,17 +89,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/the-internet-herokuapp-com-dynamic-controls" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/google-com-gmail-about" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\selenium-testing\google-com-gmail-about" />
+      <recent name="D:\selenium-testing\translate-google-com-translate-en-pl" />
       <recent name="D:\selenium-testing\the-internet-herokuapp-com-dynamic-controls" />
       <recent name="D:\selenium-testing\the-internet-herokuapp-com-add-remove-elements" />
       <recent name="D:\selenium-testing\the-internet-herokuapp-com-checkboxes" />
-      <recent name="D:\selenium-testing" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example" />
@@ -99,7 +109,7 @@
       <recent name="D:\selenium-testing\the-internet-herokuapp-com-forgot-password" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DynamicControlsPageTest.checkIfInputFieldIsEnableAfterClickingEnableButton">
+  <component name="RunManager" selected="Gradle.GmailAboutPageTest.assertPageTitle">
     <configuration name="DynamicControlsPageTest.checkIfInputFieldIsDisable" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -138,18 +148,18 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DynamicControlsPageTest.checkboxExistsOnTheGivenPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GmailAboutPageTest.assertPageTitle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.DynamicControlsPageTest.checkboxExistsOnTheGivenPage&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.GmailAboutPageTest.assertPageTitle&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":the-internet-herokuapp-com-dynamic-controls:test" />
+            <option value=":google-com-gmail-about:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -157,18 +167,18 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DynamicControlsPageTest.checkboxIsDeletedByClickingAddOrRemoveButton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TranslateEnToPlPageTest.assertTranslation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.DynamicControlsPageTest.checkboxIsDeletedByClickingAddOrRemoveButton&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.TranslateEnToPlPageTest.assertTranslation&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":the-internet-herokuapp-com-dynamic-controls:test" />
+            <option value=":translate-google-com-translate-en-pl:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -176,18 +186,18 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DynamicControlsPageTest.checkboxWasDeletedAndAddedByClickingAddOrRemoveButton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TranslateEnToPlPageTest.fillSourceFieldWithText" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.DynamicControlsPageTest.checkboxWasDeletedAndAddedByClickingAddOrRemoveButton&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.TranslateEnToPlPageTest.fillSourceFieldWithText&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":the-internet-herokuapp-com-dynamic-controls:test" />
+            <option value=":translate-google-com-translate-en-pl:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -197,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GmailAboutPageTest.assertPageTitle" />
+        <item itemvalue="Gradle.TranslateEnToPlPageTest.assertTranslation" />
+        <item itemvalue="Gradle.TranslateEnToPlPageTest.fillSourceFieldWithText" />
         <item itemvalue="Gradle.DynamicControlsPageTest.checkIfInputFieldIsEnableAfterClickingEnableButton" />
         <item itemvalue="Gradle.DynamicControlsPageTest.checkIfInputFieldIsDisable" />
-        <item itemvalue="Gradle.DynamicControlsPageTest.checkboxWasDeletedAndAddedByClickingAddOrRemoveButton" />
-        <item itemvalue="Gradle.DynamicControlsPageTest.checkboxIsDeletedByClickingAddOrRemoveButton" />
-        <item itemvalue="Gradle.DynamicControlsPageTest.checkboxExistsOnTheGivenPage" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597765090486</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Created selenium test for https://translate.google.com/?hl=pl#view=home&amp;op=translate&amp;sl=en&amp;tl=pl">
+      <created>1597767685276</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597767685276</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,7 +295,8 @@
     <MESSAGE value="Created selenium-test-core" />
     <MESSAGE value="Created selenium test for http://the-internet.herokuapp.com/checkboxes" />
     <MESSAGE value="Created selenium test for http://the-internet.herokuapp.com/add_remove_elements/" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created selenium test for http://the-internet.herokuapp.com/add_remove_elements/" />
+    <MESSAGE value="Created selenium test for https://translate.google.com/?hl=pl#view=home&amp;op=translate&amp;sl=en&amp;tl=pl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created selenium test for https://translate.google.com/?hl=pl#view=home&amp;op=translate&amp;sl=en&amp;tl=pl" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1597739628279">
@@ -305,22 +323,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597652223000" />
-    <state width="1493" height="287" key="GridCell.Tab.0.bottom" timestamp="1597741016634">
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom" timestamp="1597881753743">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="287" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597741016634" />
-    <state width="1493" height="287" key="GridCell.Tab.0.center" timestamp="1597741016634">
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597881753743" />
+    <state width="1493" height="188" key="GridCell.Tab.0.center" timestamp="1597881753743">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="287" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597741016634" />
-    <state width="1493" height="287" key="GridCell.Tab.0.left" timestamp="1597741016634">
+    <state width="1493" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597881753743" />
+    <state width="1493" height="188" key="GridCell.Tab.0.left" timestamp="1597881753743">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="287" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597741016634" />
-    <state width="1493" height="287" key="GridCell.Tab.0.right" timestamp="1597741016634">
+    <state width="1493" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597881753743" />
+    <state width="1493" height="188" key="GridCell.Tab.0.right" timestamp="1597881753743">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="287" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597741016634" />
+    <state width="1493" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597881753743" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1597739405658">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -341,10 +359,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597765099862" />
-    <state x="305" y="20" key="new project wizard" timestamp="1597765449252">
+    <state x="305" y="20" key="new project wizard" timestamp="1597879336287">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="305" y="20" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1597765449252" />
+    <state x="305" y="20" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1597879336287" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1597739588868">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
