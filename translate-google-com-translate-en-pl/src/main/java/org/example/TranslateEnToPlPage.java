@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -21,10 +22,8 @@ public class TranslateEnToPlPage extends AbstractPage {
         super(webDriver);
     }
 
-    public TranslateEnToPlPage enterTextForTranslation () {
-        sourceTextField.sendKeys("good morning");
-        WebDriverWait wait = new WebDriverWait(webDriver, 5);
-        //webDriver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
+    public TranslateEnToPlPage enterTextForTranslation (String text) {
+        sourceTextField.sendKeys(text);
         return this;
     }
 
@@ -32,13 +31,13 @@ public class TranslateEnToPlPage extends AbstractPage {
         sourceTextField.clear();
         return this;
     }
-    public TranslateEnToPlPage assertTranslationIsCorrect () {
-        //WebDriverWait wait = new WebDriverWait(webDriver, 5);
-        //        wait.until((ExpectedCondition<Boolean>) driver -> inputField.isEnabled());
-        WebDriverWait wait = new WebDriverWait(webDriver, 5);
 
+    public TranslateEnToPlPage assertTranslationIsCorrect (String correctTranslation) {
+        WebDriverWait wait = new WebDriverWait(webDriver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='tlid-translation translation']")));
         WebElement translation = webDriver.findElement(By.xpath("//span[@class='tlid-translation translation']"));
-        assertThat(translation.getText()).isEqualTo("dzień dobry");
+
+        assertThat(translation.getText()).isEqualTo(correctTranslation);
         return this;
 
     }

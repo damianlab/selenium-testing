@@ -1,9 +1,10 @@
 package org.example;
 
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
 
-import java.util.concurrent.TimeUnit;
+import java.nio.charset.StandardCharsets;
 
 public class TranslateEnToPlPageTest extends SeleniumBaseTest{
     private TranslateEnToPlPage translateEnToPlPage;
@@ -14,16 +15,14 @@ public class TranslateEnToPlPageTest extends SeleniumBaseTest{
         super.setUp();
 
         translateEnToPlPage = new TranslateEnToPlPage(webDriver);
-        webDriver.get("https://translate.google.com/?hl=pl#view=home&op=translate&sl=en&tl=pl&text=good%20morning");
+        webDriver.get("https://translate.google.com/?hl=pl#view=home&op=translate&sl=en&tl=pl");
     }
 
     @Test
     public void assertTranslation () {
         translateEnToPlPage
                 .clearTextField()
-                .enterTextForTranslation()
-                .assertTranslationIsCorrect();
-
+                .enterTextForTranslation("this")
+                .assertTranslationIsCorrect("to");
         }
-
     }
