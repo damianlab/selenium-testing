@@ -57,15 +57,15 @@ public class RepositoryPage extends AbstractPage{
         return this;
     }
 
-    public RepositoryPage assertNumberOfBranches (String expectedBranches) {
+    public RepositoryPage assertNumberOfBranches (int expectedBranches) {
         wait.until(ExpectedConditions.visibilityOf(branches));
-        Assertions.assertThat(branches.getText()).isEqualTo(expectedBranches);
+        Assertions.assertThat(Integer.valueOf(branches.getText())).isEqualTo(expectedBranches);
         return this;
     }
 
-    public RepositoryPage assertNumberOfTags (String expectedTags) {
+    public RepositoryPage assertNumberOfTags (int expectedTags) {
         wait.until(ExpectedConditions.visibilityOf(tags));
-        Assertions.assertThat(tags.getText()).isEqualTo(expectedTags);
+        Assertions.assertThat(Integer.valueOf(tags.getText())).isEqualTo(expectedTags);
         return this;
     }
 

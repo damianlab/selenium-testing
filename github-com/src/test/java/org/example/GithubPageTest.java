@@ -59,7 +59,7 @@ private GithubPage githubPage;
         githubPage.inputTextForSearch("selenium")
                 .submitTextForSearch()
                 .clickFirstRepositoryLink()
-                .assertNumberOfBranches("15");
+                .assertNumberOfBranches(15);
 
     }
 
@@ -68,7 +68,7 @@ private GithubPage githubPage;
         githubPage.inputTextForSearch("selenium")
                 .submitTextForSearch()
                 .clickFirstRepositoryLink()
-                .assertNumberOfTags("125");
+                .assertNumberOfTags(125);
 
     }
 

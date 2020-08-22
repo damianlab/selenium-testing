@@ -7,4 +7,6 @@ include 'the-internet-herokuapp-com-dynamic-controls'
 include 'translate-google-com-translate-en-pl'
 include 'google-com-gmail-about'
 include 'github-com'
+include 'pinterest-com'
+include 'allegro-pl'
 
