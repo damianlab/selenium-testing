@@ -43,15 +43,34 @@ private AllegroPage allegroPage;
         allegroPage.closePopUpWindow()
                 .clickOnSpecialOfferLink()
                 .clickLinkToElectronic()
-                .openProduct4InNewTab()
+                .openProduct2InNewTab()
                 .addProductToCart()
                 .returnToElectronicPage()
                 .openCartPage();
     }
-    @Test
-    public void openMaiPage () {
-        allegroPage.closePopUpWindow();
-               }
 
+    @Test
+    public void mainPageCartTest () {
+        allegroPage.closePopUpWindow()
+                .assertCartNumberOfItems("");
+    }
+
+    @Test
+    public void addItemsToCartAndConfirmCartStatus () {
+        allegroPage.closePopUpWindow()
+                .clickOnSpecialOfferLink()
+                .clickLinkToElectronic()
+                .openProduct1InNewTab()
+                .addProductToCart()
+                .returnToElectronicPage()
+                .openProduct2InNewTab()
+                .addProductToCart()
+                .returnToElectronicPage()
+//                .openProduct3InNewTab()
+//                .addProductToCart()
+//                .returnToElectronicPage()
+                .openCartPage()
+                .assertNumberOfItemsInTheCart(1);
+    }
 
 }

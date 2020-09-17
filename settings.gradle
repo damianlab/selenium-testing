@@ -9,4 +9,7 @@ include 'google-com-gmail-about'
 include 'github-com'
 include 'pinterest-com'
 include 'allegro-pl'
+include 'wizzair'
+include 'kiwi'
+include 'olx'
 

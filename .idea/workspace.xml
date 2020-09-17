@@ -19,20 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1d9af87-65b1-413d-a8f2-323505c74cb7" name="Default Changelist" comment="Created selenium test for https://github.com/">
-      <change afterPath="$PROJECT_DIR$/allegro-pl/src/main/java/org/example/AllegroCartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allegro-pl/src/main/java/org/example/AllegroElectronicPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allegro-pl/src/main/java/org/example/AllegroPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allegro-pl/src/main/java/org/example/AllegroProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allegro-pl/src/main/java/org/example/AllegroSpecialOfferPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allegro-pl/src/test/java/org/example/AllegroPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allegro-pl/src/test/java/org/example/SeleniumBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinterest-com/src/main/java/org/example/PinterestPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinterest-com/src/test/java/org/example/PinterestPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinterest-com/src/test/java/org/example/SeleniumBaseTest.java" afterDir="false" />
+    <list default="true" id="b1d9af87-65b1-413d-a8f2-323505c74cb7" name="Default Changelist" comment="Created selenium test for https://allegro.pl/">
+      <change afterPath="$PROJECT_DIR$/kiwi/src/main/java/org/example/KiwiHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kiwi/src/main/java/org/example/KiwiSearchResultsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kiwi/src/test/java/org/example/KiwiHomePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kiwi/src/test/java/org/example/SeleniumBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/olx/src/main/java/org/example/OlxHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/olx/src/main/java/org/example/OlxTractorsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/olx/src/test/java/org/example/OlxHomePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/olx/src/test/java/org/example/SeleniumBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wizzair/src/main/java/org/example/WizzairHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wizzair/src/test/java/org/example/SeleniumBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wizzair/src/test/java/org/example/WizzairHomePageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github-com/src/main/java/org/example/RepositoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/github-com/src/main/java/org/example/RepositoryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github-com/src/test/java/org/example/GithubPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/github-com/src/test/java/org/example/GithubPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allegro-pl/src/main/java/org/example/AllegroCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/allegro-pl/src/main/java/org/example/AllegroCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allegro-pl/src/main/java/org/example/AllegroElectronicPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/allegro-pl/src/main/java/org/example/AllegroElectronicPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allegro-pl/src/main/java/org/example/AllegroPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/allegro-pl/src/main/java/org/example/AllegroPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allegro-pl/src/test/java/org/example/AllegroPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/allegro-pl/src/test/java/org/example/AllegroPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium-test-core/src/main/java/org/example/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-test-core/src/main/java/org/example/AbstractPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
@@ -93,40 +96,43 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/allegro-pl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/olx" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\selenium-testing\the-internet-herokuapp-com-forgot-password" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\selenium-testing\allegro-pl" />
-      <recent name="D:\selenium-testing\pinterest-com" />
-      <recent name="D:\selenium-testing\github-com" />
-      <recent name="D:\selenium-testing\google-com-gmail-about" />
-      <recent name="D:\selenium-testing\translate-google-com-translate-en-pl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\selenium-testing\the-internet-herokuapp-com-forgot-password" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\selenium-testing\olx" />
+      <recent name="D:\selenium-testing\kiwi" />
+      <recent name="D:\selenium-testing\wizzair" />
+      <recent name="D:\selenium-testing\allegro-pl" />
+      <recent name="D:\selenium-testing\pinterest-com" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AllegroPageTest.openMaiPage">
-    <configuration name="AllegroPageTest.addProduct4AndCheckCartContent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.OlxHomePageTest.assertOlxResult">
+    <configuration name="KiwiHomePageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.AllegroPageTest.addProduct4AndCheckCartContent&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.KiwiHomePageTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":allegro-pl:test" />
+            <option value=":kiwi:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -134,18 +140,18 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AllegroPageTest.addProduct4Product5Product6AndCheckCartContent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KiwiHomePageTest.assertFlightDetails" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.AllegroPageTest.addProduct4Product5Product6AndCheckCartContent&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.KiwiHomePageTest.assertFlightDetails&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":allegro-pl:test" />
+            <option value=":kiwi:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -153,18 +159,18 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AllegroPageTest.assertCartNumberOfItems" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KiwiHomePageTest.assertIfDepartureTimeIsCorrect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.AllegroPageTest.assertCartNumberOfItems&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.KiwiHomePageTest.assertIfDepartureTimeIsCorrect&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":allegro-pl:test" />
+            <option value=":kiwi:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -172,18 +178,18 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AllegroPageTest.openMaiPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KiwiHomePageTest.closePrivacyWindow" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.AllegroPageTest.openMaiPage&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.KiwiHomePageTest.closePrivacyWindow&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":allegro-pl:test" />
+            <option value=":kiwi:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -191,18 +197,18 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GithubPageTest.assertFirstRepositoryStarsValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OlxHomePageTest.assertOlxResult" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;org.example.GithubPageTest.assertFirstRepositoryStarsValue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;org.example.OlxHomePageTest.assertOlxResult&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":github-com:test" />
+            <option value=":olx:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -212,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AllegroPageTest.openMaiPage" />
-        <item itemvalue="Gradle.GithubPageTest.assertFirstRepositoryStarsValue" />
-        <item itemvalue="Gradle.AllegroPageTest.addProduct4AndCheckCartContent" />
-        <item itemvalue="Gradle.AllegroPageTest.assertCartNumberOfItems" />
-        <item itemvalue="Gradle.AllegroPageTest.addProduct4Product5Product6AndCheckCartContent" />
+        <item itemvalue="Gradle.OlxHomePageTest.assertOlxResult" />
+        <item itemvalue="Gradle.KiwiHomePageTest.assertFlightDetails" />
+        <item itemvalue="Gradle.KiwiHomePageTest.closePrivacyWindow" />
+        <item itemvalue="Gradle.KiwiHomePageTest.assertIfDepartureTimeIsCorrect" />
+        <item itemvalue="Gradle.KiwiHomePageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597952269091</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Created selenium test for https://allegro.pl/">
+      <created>1598135238007</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598135238007</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,13 +338,22 @@
     <MESSAGE value="Created selenium test for https://translate.google.com/?hl=pl#view=home&amp;op=translate&amp;sl=en&amp;tl=pl" />
     <MESSAGE value="Created selenium test for https://www.google.com/gmail/about/" />
     <MESSAGE value="Created selenium test for https://github.com/" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created selenium test for https://github.com/" />
+    <MESSAGE value="Created selenium test for https://allegro.pl/" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created selenium test for https://allegro.pl/" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1597739628279">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1598193709944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597739628279" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1598193709944" />
+    <state x="507" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599692362777">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="507" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599692362777" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1599196397116">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599196397116" />
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598122609130">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -356,38 +378,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597652223000" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1598134967587">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1600322607583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598134967587" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1598134967587">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600322607583" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1600322607582">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598134967587" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1598134967587">
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600322607582" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1600322607582">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598134967587" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1598134967587">
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600322607582" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1600322607583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598134967587" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1598045895015">
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600322607583" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1599694250633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598045895015" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1598045895015">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599694250633" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1599694250633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598045895015" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1598045895015">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599694250633" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1599694250633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598045895015" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1598045895015">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599694250633" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1599694250633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598045895015" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599694250633" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1597911430097">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -396,13 +418,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597952283638" />
-    <state x="305" y="20" key="new project wizard" timestamp="1597997863685">
+    <state x="305" y="20" key="new project wizard" timestamp="1599543763378">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="305" y="20" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1597997863685" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598134187360">
+    <state x="305" y="20" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1599543763378" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1599074573207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598134187360" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1599074573207" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599198892923">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599198892923" />
   </component>
 </project>

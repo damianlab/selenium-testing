@@ -10,14 +10,17 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class AllegroElectronicPage extends AbstractPage{
 
-    @FindBy(xpath = "(//div/div/div[contains(@class, 'carousel-item')])[1]")
+//    @FindBy(xpath = "/html/body/div[2]/div[4]/div/div/div[3]/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/div[1]/div/div[2]/ul/li[4]/a")
+//    private WebElement product1;
+
+    @FindBy(xpath = "//div[@class='_3kk7b _07bcb_CWOtz _vnd3k _1h8s6 _1755t _1nucm _1iuj2 _07bcb_3q-O5'][1]")
     private WebElement product1;
 
-    @FindBy(xpath = "(//div/div/div[contains(@class, 'carousel-item')])[4]")
-    private WebElement product4;
+    @FindBy(xpath = "//div[@class='_3kk7b _07bcb_CWOtz _vnd3k _1h8s6 _1755t _1nucm _1iuj2 _07bcb_3q-O5'][2]")
+    private WebElement product2;
 
-    @FindBy(xpath = "(//div/div/div[contains(@class, 'carousel-item')])[5]")
-    private WebElement product5;
+    @FindBy(xpath = "//div[@class='_3kk7b _07bcb_CWOtz _vnd3k _1h8s6 _1755t _1nucm _1iuj2 _07bcb_3q-O5'][3]")
+    private WebElement product3;
 
     @FindBy(xpath = "(//div/div/div[contains(@class, 'carousel-item')])[6]")
     private WebElement product6;
@@ -44,16 +47,16 @@ public class AllegroElectronicPage extends AbstractPage{
         return new AllegroProductPage(webDriver);
     }
 
-    public AllegroProductPage openProduct4InNewTab() {
-        wait.until(ExpectedConditions.visibilityOf(product4));
-        openInNewTab(product4);
+    public AllegroProductPage openProduct2InNewTab() {
+        wait.until(ExpectedConditions.visibilityOf(product2));
+        openInNewTab(product2);
         switchToSecondTab();
         return new AllegroProductPage(webDriver);
     }
 
-    public AllegroProductPage openProduct5InNewTab() {
-        wait.until(ExpectedConditions.visibilityOf(product5));
-        openInNewTab(product5);
+    public AllegroProductPage openProduct3InNewTab() {
+        wait.until(ExpectedConditions.visibilityOf(product3));
+        openInNewTab(product3);
         switchToSecondTab();
         return new AllegroProductPage(webDriver);
     }
