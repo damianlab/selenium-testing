@@ -12,4 +12,6 @@ include 'allegro-pl'
 include 'wizzair'
 include 'kiwi'
 include 'olx'
+include '8a'
+include 'speedtest'
 

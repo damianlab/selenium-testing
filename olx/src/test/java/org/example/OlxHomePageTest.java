@@ -20,14 +20,25 @@ public class OlxHomePageTest extends SeleniumBaseTest {
     }
 
     @Test
-    public void assertOlxResult () {
+    public void assertOlxResult () throws InterruptedException {
         olxHomePage.clickFarmingCategory()
                     .clickTractors()
                     .checkPhotoOnly()
                     .fillCityForSearch("Mazowieckie")
                     .fillPriceFrom("13000")
                     .fillPriceTo("45000")
-                    .assertOffer1("21 000");
+                    .fillPowerFrom("60")
+                    .fillPowerTo("400")
+                    .fillMotoHFrom("500")
+                    .fillMotoHTo("3000")
+                    .fillYearFrom("1990")
+                    .fillYearTo("2007")
+                    .assertOffer1(27500)
+                    .assertNumberOfOffers(5)
+                    .clickFirstOffer()
+                    .assertProductionYear(1995)
+                    .assertMotoH(3000)
+                    .assertOfferUser("Krystian");
 
     }
 

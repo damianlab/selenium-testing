@@ -1,13 +1,16 @@
 package org.example;
 
 import org.assertj.core.api.Assertions;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
+
+import java.time.Duration;
+import java.time.temporal.TemporalUnit;
+import java.util.concurrent.TimeUnit;
 
 public class OlxTractorsPage extends AbstractPage{
 
@@ -37,12 +40,6 @@ public class OlxTractorsPage extends AbstractPage{
         return this;
     }
     public OlxTractorsPage fillPriceFrom (String priceFromValue) {
-        //WebElement priceField = webDriver.findElement(By.xpath("(//a[@class='button button-from numeric gray block fnormal rel zi3 clr'])[1]"));
-        //wait.until(ExpectedConditions.visibilityOf(priceFieldFrom));
-        //priceField.sendKeys(priceFromValue);
-        //priceField.submit();
-        //System.out.println(priceFieldFrom.getText());
-        //priceFieldFrom.click();
         WebElement priceField = webDriver.findElement(By.xpath("//li[@id='param_price']/div/div/a/span[@data-default-label='od']"));
         wait.until(ExpectedConditions.elementToBeClickable(priceField));
         priceField.click();
@@ -60,17 +57,107 @@ public class OlxTractorsPage extends AbstractPage{
 
     }
 
+    public OlxTractorsPage fillPowerFrom (String powerFromValue) {
+        WebElement powerField = webDriver.findElement(By.xpath("//li[@id='param_power']/div/div/a/span[@data-default-label='od']"));
+        wait.until(ExpectedConditions.elementToBeClickable(powerField));
+        powerField.click();
+        new Actions(webDriver).sendKeys(powerFromValue).sendKeys(Keys.ENTER).build().perform();
+        return this;
+    }
+
+    public OlxTractorsPage fillPowerTo (String powerToValue) {
+        WebElement powerField = webDriver.findElement(By.xpath("//li[@id='param_power']/div/div/a/span[@data-default-label='do']"));
+        wait.until(ExpectedConditions.elementToBeClickable(powerField));
+        powerField.click();
+        new Actions(webDriver).sendKeys(powerToValue).sendKeys(Keys.ENTER).build().perform();
+        return this;
+    }
+
+
+    public OlxTractorsPage fillMotoHFrom (String motoHFromValue) {
+        WebElement motoHField = webDriver.findElement(By.xpath("//li[@id='param_motor_hours']/div/div/a/span[@data-default-label='od']"));
+        wait.until(ExpectedConditions.elementToBeClickable(motoHField));
+        motoHField.click();
+        new Actions(webDriver).sendKeys(motoHFromValue).sendKeys(Keys.ENTER).build().perform();
+        return this;
+    }
+
+    public OlxTractorsPage fillMotoHTo (String motoHToValue) {
+        WebElement motoHField = webDriver.findElement(By.xpath("//li[@id='param_motor_hours']/div/div/a/span[@data-default-label='do']"));
+        wait.until(ExpectedConditions.elementToBeClickable(motoHField));
+        motoHField.click();
+        new Actions(webDriver).sendKeys(motoHToValue).sendKeys(Keys.ENTER).build().perform();
+        return this;
+    }
+
+
+    public OlxTractorsPage fillYearFrom (String yearFromValue) {
+        WebElement yearField = webDriver.findElement(By.xpath("//li[@id='param_year']/div/div/a/span[@data-default-label='od']"));
+        wait.until(ExpectedConditions.elementToBeClickable(yearField));
+        yearField.click();
+        new Actions(webDriver).sendKeys(yearFromValue).sendKeys(Keys.ENTER).build().perform();
+        return this;
+    }
+
+    public OlxTractorsPage fillYearTo (String yearToValue) {
+        WebElement yearField = webDriver.findElement(By.xpath("//li[@id='param_year']/div/div/a/span[@data-default-label='do']"));
+        wait.until(ExpectedConditions.elementToBeClickable(yearField));
+        yearField.click();
+        new Actions(webDriver).sendKeys(yearToValue).sendKeys(Keys.ENTER).build().perform();
+        return this;
+    }
+
+
+
+
+
     public OlxTractorsPage checkPhotoOnly () {
         wait.until(ExpectedConditions.visibilityOf(photoOnly));
         photoOnly.click();
         return this;
     }
 
-    public OlxTractorsPage assertOffer1 (String tractor1Price) {
+    public OlxTractorsPage assertOffer1 (Integer tractor1Price) throws InterruptedException {
+        Thread.sleep(5000);
+
+        Wait<WebDriver> wait = new FluentWait<>(webDriver)
+                .withTimeout(30, TimeUnit.SECONDS)
+                .ignoring(StaleElementReferenceException.class)
+                .pollingEvery(2, TimeUnit.SECONDS);
+
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//table[@id='offers_table']/tbody/tr[@class='wrap'])[1]/td/div/table/tbody/tr/td[contains(@class, 'td-price')]/div/p/strong")));
         WebElement offerTractor1Price = webDriver.findElement(By.xpath("(//table[@id='offers_table']/tbody/tr[@class='wrap'])[1]/td/div/table/tbody/tr/td[contains(@class, 'td-price')]/div/p/strong"));
-        wait.until(ExpectedConditions.visibilityOf(offerTractor1Price));
+
         System.out.println(offerTractor1Price.getText());
-        Assertions.assertThat(offerTractor1Price.getText()).isEqualTo(tractor1Price);
+
+        String s = offerTractor1Price.getText().replaceAll(" ", "");
+        int offerPrice = Integer.parseInt(s.substring(0, s.length() - 2));
+        Assertions.assertThat(offerPrice).isEqualTo(tractor1Price);
+
         return this;
+    }
+
+    public OlxTractorsPage assertNumberOfOffers (Integer numberOfOffers) throws InterruptedException {
+
+
+        Thread.sleep(5000);
+
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table[@id='offers_table']/tbody/tr/td/div[@class='hasPromoted section clr']/p")));
+        WebElement offersValue = webDriver.findElement(By.xpath("//table[@id='offers_table']/tbody/tr/td/div[@class='hasPromoted section clr']/p"));
+        System.out.println(offersValue.getText());
+
+        int offers = Integer.parseInt(offersValue.getText().split(" ")[1]);
+        Assertions.assertThat(offers).isEqualTo(numberOfOffers);
+
+        return this;
+    }
+
+    public OlxOfferPage clickFirstOffer () throws InterruptedException {
+        Thread.sleep(5000);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("((//table[@id='offers_table']/tbody/tr[@class='wrap'])[1]/td/div/table/tbody/tr/td/a)[1]")));
+        WebElement offer1Link = webDriver.findElement(By.xpath("((//table[@id='offers_table']/tbody/tr[@class='wrap'])[1]/td/div/table/tbody/tr/td/a)[1]"));
+        offer1Link.click();
+        return new OlxOfferPage(webDriver);
+
     }
 }
