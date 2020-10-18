@@ -7,6 +7,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class StackoverflowJobsPage extends AbstractPage{
 
+    @FindBy (xpath = "//div[@class='ps-relative']/input[@placeholder='Search…']")
+    WebElement mainSearch;
+
     @FindBy (xpath = "(//input[@type='text'])[2]")
     WebElement jobTitle;
 
@@ -20,6 +23,13 @@ public class StackoverflowJobsPage extends AbstractPage{
         super(webDriver);
     }
 
+    public StackoverflowJobsPage searchForText ( String textForSearch) {
+        wait.until(ExpectedConditions.visibilityOf(mainSearch));
+        mainSearch.click();
+        mainSearch.clear();
+        mainSearch.sendKeys(textForSearch);
+        return this;
+    }
     public StackoverflowJobsPage inputJobTitleForSearch (String jobTitleForSearch) {
         wait.until(ExpectedConditions.visibilityOf(jobTitle));
         jobTitle.click();

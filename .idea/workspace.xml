@@ -19,23 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1d9af87-65b1-413d-a8f2-323505c74cb7" name="Default Changelist" comment="Created selenium test for SpeedTest">
-      <change afterPath="$PROJECT_DIR$/instagram/src/main/java/org/example/InstagramLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instagram/src/main/java/org/example/InstagramOnetapPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instagram/src/main/java/org/example/InstagramPostPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instagram/src/main/java/org/example/InstagramSearchedProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instagram/src/main/java/org/example/InstagramUserHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instagram/src/main/java/org/example/InstagramUserPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instagram/src/test/java/org/example/InstagramLoginPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instagram/src/test/java/org/example/SeleniumBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackoverflow/src/main/java/org/example/StackoverflowHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackoverflow/src/main/java/org/example/StackoverflowJobsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackoverflow/src/test/java/org/example/SeleniumBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackoverflow/src/test/java/org/example/StackoverflowHomePageTest.java" afterDir="false" />
+    <list default="true" id="b1d9af87-65b1-413d-a8f2-323505c74cb7" name="Default Changelist" comment="Created selenium test for stack overflow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/speedtest/src/main/java/org/example/SpeedtestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/speedtest/src/main/java/org/example/SpeedtestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/speedtest/src/test/java/org/example/SpeedtestHomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/speedtest/src/test/java/org/example/SpeedtestHomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stackoverflow/src/main/java/org/example/StackoverflowJobsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/stackoverflow/src/main/java/org/example/StackoverflowJobsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stackoverflow/src/test/java/org/example/StackoverflowHomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stackoverflow/src/test/java/org/example/StackoverflowHomePageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601225316216</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Created selenium test for stack overflow">
+      <created>1603007569353</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1603007569353</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,7 +346,8 @@
     <MESSAGE value="Created selenium test for https://github.com/" />
     <MESSAGE value="Created selenium test for https://allegro.pl/" />
     <MESSAGE value="Created selenium test for SpeedTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created selenium test for SpeedTest" />
+    <MESSAGE value="Created selenium test for stack overflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created selenium test for stack overflow" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1598193709944">
@@ -427,10 +422,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597911430097" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601225561843">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603007601390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601225561843" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603007601390" />
     <state x="305" y="20" key="new project wizard" timestamp="1602870549951">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

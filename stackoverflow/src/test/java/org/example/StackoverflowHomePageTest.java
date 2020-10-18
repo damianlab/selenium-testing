@@ -26,7 +26,8 @@ public class StackoverflowHomePageTest extends SeleniumBaseTest{
                 .clickJobsLink()
                 //.clickCompanies();
                 //.inputJobTitleForSearch("Web developer")
-                .inputLocationSearch();
+                //.inputLocationSearch()
+                .searchForText("web developer");
     }
 
 }
