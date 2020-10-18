@@ -24,7 +24,7 @@ public class StackoverflowJobsPage extends AbstractPage{
     }
 
     public StackoverflowJobsPage searchForText ( String textForSearch) {
-        wait.until(ExpectedConditions.visibilityOf(mainSearch));
+        //wait.until(ExpectedConditions.visibilityOf(mainSearch));
         mainSearch.click();
         mainSearch.clear();
         mainSearch.sendKeys(textForSearch);
