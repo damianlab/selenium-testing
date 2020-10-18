@@ -3,6 +3,8 @@ package org.example;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.math.BigDecimal;
+
 public class SpeedtestHomePageTest extends SeleniumBaseTest{
     SpeedtestHomePage speedtestHomePage;
 
@@ -23,7 +25,10 @@ public class SpeedtestHomePageTest extends SeleniumBaseTest{
     public void testSpeedtestPage () {
         speedtestHomePage.closePrivacyPolicy()
                          .runTheTest()
-                         .readTheTestResults();
+                         .readTheTestResults()
+                         .assertPing(640)
+                         .assertDownload(new BigDecimal("1.1"))
+                         .assertUpload(new BigDecimal("1.9"));
 
     }
 
